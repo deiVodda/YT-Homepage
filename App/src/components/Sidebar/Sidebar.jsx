@@ -7,6 +7,7 @@ const Sidebar = () => {
         <div className="sidebar-head">
             <div className="burgermenu"></div>
             <div className="head-title">
+                Youtube
             </div>
         </div>
     </section>
