@@ -1,3 +1,97 @@
+svg{
+    width: 24px;
+    height: 24px;
+    fill: white;
+}
+
 .navbar{
-    color: white;
+    height: 56px;
+    padding: 0 16px;
+    background-color: #0F0F0F;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* left nav */
+.left-nav{
+    flex: 0 0 166px;
+    display: flex;
+    gap: 1rem;
+}
+
+.burger-menu{
+    width: 24px;
+    height: 24px;
+}
+
+.yt-logo{
+    height: 20px;
+    width: 80px;
+}
+
+/* middle nav */
+.middle-nav{
+    width: 100%;
+    margin-left: 3em;
+}
+
+.search-wrapper{
+    display: flex;
+    align-items: center;
+    border: 1px solid #303030;
+    border-radius: 1rem;
+    overflow-x: hidden;
+}
+
+.search-active-icon{
+    display: none;
+    padding: .3rem .7rem 0 1rem;
+}
+
+.search-active-icon.active{
+    display: block;
+}
+
+.search{
+    width: 100%;
+    padding-left: 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: #949494;
+}
+
+.search-btn{
+    margin-left: auto;
+    background-color: #222222;
+    padding: .3rem .7rem 0 1rem;
+}
+
+/* right nav */
+.right-nav{
+    flex: 0 0 225px;
+    display: flex;
+    align-items: center;
+    margin-left: 1rem;
+    gap: 2rem;
+}
+
+.nav-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.nav-link:hover{
+    background-color: #212121;
+}
+
+.nav-avatar{
+    border-radius: 50%;
 }
